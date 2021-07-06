@@ -44,7 +44,7 @@ common common
   build-depends:
     base >= 4.8 && < 5
     , aeson >= 0.8.0.1
-    , bytestring == 0.10.*
+    , bytestring < 0.12
     , lens >= 4.16
     , mtl >= 2
     , text >= 1.1
